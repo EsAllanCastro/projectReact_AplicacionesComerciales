@@ -1,0 +1,12 @@
+.css-counter {
+  counter-reset: row-number;
+
+}
+
+.css-counter td:first-child:before {
+  font-weight: normal;
+  font-size: 1em;
+  counter-increment: row-number;
+  content: counter(row-number);
+
+}
